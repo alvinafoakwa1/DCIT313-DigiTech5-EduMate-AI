@@ -1,0 +1,23 @@
+[
+  {
+    "id": "Q01",
+    "category": "normal",
+    "query": "What is required for a table to be in Second Normal Form (2NF)?",
+    "expected_behavior": "answer_with_citation",
+    "expected_topic": "Topic 1: Database Normalization"
+  },
+  {
+    "id": "Q02",
+    "category": "normal",
+    "query": "Explain the four ACID properties in database transactions.",
+    "expected_behavior": "answer_with_citation",
+    "expected_topic": "Topic 3: ACID Properties of Transactions"
+  },
+  {
+    "id": "Q03",
+    "category": "out_of_scope",
+    "query": "How do you configure a Cisco router for VLAN trunking?",
+    "expected_behavior": "abstain",
+    "expected_topic": "NOT_IN_NOTES"
+  }
+]

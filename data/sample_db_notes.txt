@@ -1,0 +1,12 @@
+Topic 1: Database Normalization
+Normalization is the process of organizing data in a relational database to reduce data redundancy and improve data integrity.
+First Normal Form (1NF) requires that every column contains atomic (indivisible) values and each record is unique.
+Second Normal Form (2NF) requires that the table is in 1NF and all non-key attributes are fully functionally dependent on the entire primary key.
+Third Normal Form (3NF) requires that the table is in 2NF and there are no transitive dependencies between non-key attributes.
+
+Topic 2: Primary and Foreign Keys
+A Primary Key uniquely identifies each record in a database table and cannot contain NULL values.
+A Foreign Key is a field in one table that refers to the Primary Key in another table, establishing a relationship between the two tables and enforcing referential integrity.
+
+Topic 3: ACID Properties of Transactions
+Database transactions must satisfy four ACID properties: Atomicity (all operations succeed or none do), Consistency (database moves from one valid state to another), Isolation (concurrent transactions do not interfere with each other), and Durability (committed changes persist even after a system crash).
